@@ -1,0 +1,117 @@
+*{padding: 0px; margin: 0px;font-family: 'Asap-Regular';}
+@font-face {font-family: 'Asap-Regular'; src: url(fonts/Asap-Regular.ttf);}
+@font-face {font-family: 'Asap-Bold'; src: url(fonts/Asap-Bold.ttf);}
+@font-face {font-family: 'Asap-Medium'; src: url(fonts/Asap-Medium.ttf);}
+
+main, header, content, footer, nav {display: block;}
+
+main{}
+	header{}
+		.header_menu {height: 750px; background: url('images/header.png')no-repeat center/cover;}
+			.header_top {}	
+				.header_menu_fix {width: 1170px; padding: 0px 15px; margin: 0px auto; height: 86px;display: flex; justify-content: space-between;}
+					.header_logo {background: url('images/logo.png')no-repeat center; width: 81px;  display: block;}
+					.header_list {width: 460px;}
+						.header_list ul {list-style-type: none;display: flex; justify-content: space-between; line-height: 81px;}
+						.header_list li {}
+						.header_list a {text-decoration: none; color: #4d4d4d; font-size: 16px;padding-bottom: 3px; text-transform: uppercase; transition: 0.3s;}
+						.header_list a:hover {border-bottom: 1px solid #878787; }
+			.header_info {}	
+				.header_info_fix {width: 1170px; padding: 0px 15px; margin: 0px auto; height:664px;display: flex; justify-content: space-between; }		
+					.header_info_name {margin-top: 182px;}
+						.header_info_name_title {font-size: 85px; color: #4d4d4d; font-weight: 700;line-height: 49px;}
+						.header_info_name_desc {font-size: 22px; color: #909090; line-height: 71px; font-weight: 700;}
+						.header_info_name_more {width: 342px; display: flex; justify-content: space-between;}
+							.button_more {width: 160px; height: 50px; border: 1px solid #4d4d4d; color: #4d4d4d; font-size: 16px; display: block; text-decoration: none; text-align: center; line-height: 50px; text-transform: uppercase; font-weight: 700;box-sizing: border-box;}
+							.button_more:hover {background: #fff; border: none;}
+							.button_hire {width: 160px; height: 50px; border: 1px solid #4d4d4d; color: #4d4d4d; font-size: 16px; display: block; text-decoration: none; text-align: center; line-height: 50px; text-transform: uppercase; font-weight: 700;box-sizing: border-box;cursor: pointer;}
+							.button_hire:hover {background: #fff; border: none;}
+					.header_info_img { width: 570px; background: url('images/header_img.png')no-repeat center top 11px/contain;}
+	content{}
+		.about {}
+			.about_fix {width: 1170px; padding: 0px 15px; margin: 0px auto; height:677px;display: flex; justify-content: space-between; align-items: center;}
+				.about_desc {width: 470px;}
+					.about_title {color: #717171; font-size: 46px; text-transform: uppercase; font-family: 'Asap-Bold'; width: 315px;line-height: 49px;}
+					.about_title hr {width: 60px; background: #7a7a7a; height: 4px;}
+					.about_text {color: #4d4d4d; font-size: 16px;line-height: 26px;margin-bottom: 15px;}
+					.about_button {width: 245px; height: 50px; border:1px solid #4d4d4d; color: #4d4d4d; font-size: 16px; text-transform: uppercase; text-align: center; line-height: 50px; display: block; text-decoration: none; box-sizing: border-box;font-family: 'Asap-Bold';}
+					.about_button:hover {background: #dedede; border: none;}
+				.about_img {background: url('images/about_img.png')no-repeat center; height: 443px; width: 571px;}	
+		.services {background: #f6f6f6;}		
+			.services_fix {width: 1170px; padding: 0px 15px; margin: 0px auto; height:693px;display: flex; flex-direction: column;align-items: center; justify-content: center;}	
+				.services_title {color: #6f6f6f; font-size: 46px; font-family: 'Asap-Bold'; line-height: 79px; margin-bottom: 39px; text-transform: uppercase;letter-spacing: 7px;}
+				.services_title hr {width: 60px; background: #7a7a7a; margin: 0px auto; height: 4px;}	
+				.services_list {display: flex; width: 1170px; flex-wrap: wrap; padding-left: 184px;}
+					.services_li {width: 203px; height: 146px; text-decoration: none; display: block; margin-right: 187px; color: #4d4d4d; line-height: 30px; font-size: 23px; box-sizing: border-box; margin-bottom: 47px; padding-top: 85px; text-align: center; transition: 0.3s;font-family: 'Asap-Bold';}
+					.services_li:nth-child(3n) {margin: 0px;}
+					.services_li:hover {border:1px solid #4d4d4d; }
+		.portfolio {}			
+			.portfolio_fix {height: 1096px; width: 1170px; padding: 0px 15px; margin: 0px auto;display: flex;justify-content: ;flex-direction: column;align-items: center;padding-top: 127px; box-sizing: border-box;}
+				.portfolio_title {color: #6f6f6f; font-size: 46px; font-family: 'Asap-Bold'; line-height: 79px; margin-bottom: 39px; text-transform: uppercase;letter-spacing: 7px;}
+					.portfolio_title hr {width: 60px; height: 4px; background: #767676;margin: 0px auto;}
+				.portfolio_blocks {display: flex;flex-wrap: wrap; justify-content: space-between;margin-bottom: 29px;}
+					.portfolio_block {display: block;width: 368px; height: 318px;margin-bottom: 30px;}
+					.portfolio_block:hover {border: 1px solid #868686; box-sizing: border-box;}
+				.portfolio_button {width: 190px; height: 50px; border: 1px solid #4d4d4d; color: #4d4d4d; font-size: 16px; display: block; text-decoration: none; text-align: center; line-height: 50px; text-transform: uppercase; font-weight: 700;box-sizing: border-box;}	
+					.portfolio_button:hover {border: none; color: #4d4d4d; background: #dedede;}
+		.count {background: #f6f6f6;margin-bottom: 154px;}			
+			.count_fix {height: 302px;width: 1170px; padding: 0px 15px; margin: 0px auto;display: flex;justify-content: space-around;align-items: center;}
+				.count_block {width: 200px;display: flex;flex-direction: column;align-items: center;}			
+					.count_block img {height: 100px;margin-bottom: 20px;}	
+					.count_title {font-family: 'Asap-Bold';font-size: 30px; color: #363636;}
+					.count_text {font-size: 22px; color: #363636; text-transform: uppercase;font-family: 'Asap-Medium';line-height: 33px;}		
+
+footer{height: 787px; background: url('images/footer.png')no-repeat center/cover;}
+	.footer_top {}	
+		.footer_top_fix	{height: 703px; width: 1170px; margin: 0px auto; padding: 0px 15px;padding-top: 145px; box-sizing: border-box;}
+			.footer_title {color: #fff; font-size: 46px; font-family: 'Asap-Bold'; line-height: 79px; margin-bottom: 39px; text-transform: uppercase;letter-spacing: 3px; text-align: center;}
+				.footer_title hr {width: 60px; height: 4px; background: #c1c1c1;margin: 0px auto;}
+			.footer_form {width: 769px; margin: 0px auto;height: 373px;}
+				.footer_form form {display: flex; justify-content: space-between;flex-direction: column; height: 373px;}
+				.footer_form form span { width: 768px;}
+				.footer_form input[type=text] {width: 370px;height: 57px; padding-left: 11px; box-sizing: border-box;}
+					.footer_form input::placeholder {color: #4d4d4d;font-size: 16px;}
+				.footer_form input[type=email] {margin-left: 28px;width: 370px;height: 57px; padding-left: 11px; box-sizing: border-box;}
+				textarea {resize: none;margin-top: 29px;width: 768px; height: 207px;padding-left: 11px; padding-top: 25px;box-sizing: border-box;}
+				textarea::placeholder {color: #4d4d4d;font-size: 16px;}
+				.footer_form input[type=submit] {width: 123px;text-align: center; line-height: 50px; color: #4d4d4d; text-transform: uppercase;display: block; margin: 0px auto; cursor: pointer; font-weight: 700; font-size: 16px;margin-top: 29px;}
+				.footer_form input[type=submit]:hover {background: #fff;}
+				#wpcf7-f53-o1 p {display: flex;flex-direction: column;align-items: center;justify-content: center;}
+	.footer_bottom {}		
+		.footer_bottom_fix {height: 84px; width: 1170px; margin: 0px auto; padding: 0px 15px; border-top: 1px solid #fff;display: flex;justify-content: flex-start; align-items: center;}	
+			.footer_links {width: 208px;display: flex; justify-content: space-between;margin-right: 273px;}	
+				.footer_link {display: block; height: 27px; width: 27px;}
+				.footer_link:hover { border: 1px solid #000; box-sizing: border-box;}
+			.all_rights {font-size: 16px; color: #fff;line-height: 84px;}	
+
+/*CSS for Page*/
+
+.content_fix_page {width: 1170px; margin: 0px auto; padding: 0px 15px;min-height: 600px;}			
+	.content_title_page {padding: 40px 0px; color: #6f6f6f; font-size: 46px; font-family: 'Asap-Bold'; line-height: 79px; text-transform: uppercase;letter-spacing: 7px; text-align: center;}
+	.content_title_page hr {width: 60px; background: #7a7a7a; height: 4px;margin: 0px auto;border: none;}
+	.content_body_page {font-size: 22px;}
+
+/*CSS for Category*/
+
+.content_fix_category {width: 1170px; margin: 0px auto; padding: 0px 15px;min-height: 600px;}			
+	.content_title_category {padding: 40px 0px; padding: 40px 0px; color: #6f6f6f; font-size: 46px; font-family: 'Asap-Bold'; line-height: 79px; text-transform: uppercase;letter-spacing: 7px; text-align: center;}
+	.content_title_category hr {width: 60px; background: #7a7a7a; height: 4px;margin: 0px auto;border: none;}
+	.content_body_category {}	
+
+/*CSS for Modal window*/
+
+.modal {display: none;width: 100%; height: 2000px; position: absolute; background: #00000080; z-index: 1;position: fixed; top: 0px;}
+	.modal_window {width: 500px; height: 300px; background: #fff; position: absolute; padding-top: 5px; box-sizing: border-box; left: calc(50% - 250px); top: -300px;}
+		.modal_title {color: #6f6f6f; font-size: 24px; text-align: center; text-transform: uppercase;}
+		.close_modal {color: #6f6f6f; text-align: right; text-transform: uppercase; margin-right: 10px; margin-top: 5px; cursor: pointer;}
+		.modal_form {height: 230px; width: 500px; background :#6f6f6f; margin-top: 15px;}
+		.modal_form form {display: flex;justify-content: center;flex-direction: column;align-items: center;}
+			.modal_form form input[type='text'] {margin-top: 50px;width: 225px; height: 36px; border-top: 3px solid #ababab; border-left: 2px solid #ababab; box-sizing: border-box; color: #a4a4a4; text-indent: 10px; font-size: 14px; border-radius: 5px;}
+			.modal_form form input[type='email'] {margin-top: 10px;width: 225px; height: 36px; border-top: 3px solid #ababab; border-left: 2px solid #ababab; box-sizing: border-box; color: #a4a4a4; text-indent: 10px; font-size: 14px; border-radius: 5px;}
+			.modal_form form input[type='submit'] {margin-top: 10px;width: 225px; height: 36px;  box-sizing: border-box; color: #fff;  font-size: 14px; border-radius: 5px; text-align: center; background: center; cursor: pointer;text-transform: uppercase;}
+			.modal_form form input[type='submit']:hover {color: #000;}	
+
+.pm {}			
+	.pm_fix {width: 1170px; margin: 0px auto; padding: 0px 15px; height: 600px;}
+		.pm_ {height: 200px; width: 300px; margin: 0px auto;}
+		.pm_ form {display: block}
